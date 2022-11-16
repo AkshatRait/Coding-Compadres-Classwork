@@ -1,0 +1,61 @@
+
+/*main*/
+main{
+    width:100%;
+    max-width: 900px;
+    margin:0 auto;
+}
+html,body{
+    width:100%;
+    Height:100%;
+}
+
+
+body{
+    background-color:rgb(241, 241, 176) ; 
+}
+#hero{
+    text-align: center;
+    list-style-position: inside;
+    color:chocolate
+}
+div#hero{
+    background-color:aliceblue;
+    border: 5px solid rgb(10, 10, 14)}
+{
+    display:ruby;
+    background-color:rgb(57, 57, 134);
+    color:rgb(255, 255, 255);
+    padding:2.5px;
+}
+#head{
+    background: linear-gradient(to right, red 0%, purple 100%);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size:500%;
+    padding-top: 1%; 
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+Div#lists{
+    background-color:rgb(111, 206, 185);
+    border: 5px solid rgb(10, 10, 14)}
+
+div#list2{
+    background-color:rgb(189, 125, 52);
+    border: 5px solid rgb(10, 10, 14)
+    
+}
+#list2{
+ padding-top: 0%;
+}
+#sub{
+    text-align: center;
+    font-size:300%;
+}
+img{
+    filter: drop-shadow(30px 10px 4px #000000)
+    
+}
+
