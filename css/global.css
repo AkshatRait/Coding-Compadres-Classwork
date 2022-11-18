@@ -28,7 +28,11 @@
 }
 /* NAV BAR */
 
-
+/*body*/
+body{
+    background-color:rgb(241, 241, 176) ; 
+}
+/*body*/
 /* Footer */
 footer#social ul{
     Display:flex;
