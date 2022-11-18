@@ -42,6 +42,11 @@ body{
 /*body*/
 
 /* Footer */
+footer a{
+    display:grid;
+    grid-template-columns: auto 1fr auto;
+}
+
 footer#social ul{
     Display:flex;
     justify-content: right;
