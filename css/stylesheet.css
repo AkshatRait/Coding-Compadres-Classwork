@@ -1,10 +1,5 @@
 
-/*main*/
-main{
-    width:100%;
-    max-width: 900px;
-    margin:0 auto;
-}
+
 html,body{
     width:100%;
     Height:100%;
@@ -23,7 +18,7 @@ div#hero{
     border: 5px solid rgb(10, 10, 14)}
 {
     display:ruby;
-    background-color:rgb(57, 57, 134);
+    background-color:rgb(57 57, 134);
     color:rgb(255, 255, 255);
     padding:2.5px;
 }
