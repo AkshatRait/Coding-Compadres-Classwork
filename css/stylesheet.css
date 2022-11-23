@@ -37,8 +37,14 @@ Div#lists{
     background-color:rgb(111, 206, 185);
     border: 5px solid rgb(10, 10, 14)}
 
-
-
+div#list2{
+    background-color:rgb(189, 125, 52);
+    border: 5px solid rgb(10, 10, 14)
+    
+}
+#list2{
+ padding-top: 0%;
+}
 #sub{
     color:rgb(56, 38, 33);
     text-align: center;
