@@ -1,8 +1,14 @@
 /* NAV BAR */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Patrick+Hand&display=swap');
+</style>
 *{
     margin: 0;
     padding: 0;
 }
+img{
+   object-fit: cover;
+} 
+   /* NAV BAR */
 #top-nav{
     margin:0; 
     padding:0;
@@ -37,21 +43,27 @@ main{
 
 /*body*/
 body{
+    font-size: 16px;
+    font-family:  'Patrick Hand', cursive;
     background-color:rgb(241, 241, 176) ; 
 }
 /*body*/
 
 /* Footer */
-footer a{
+footer{
+    background-color: lightblue;
     display:grid;
     grid-template-columns: auto 1fr auto;
+ 
 }
 
-footer#social ul{
+
+footer #social ul{
     Display:flex;
     justify-content: right;
+    
 }
-footer#social ul li{
+footer #social ul li{
     list-style:none;
 
 }
@@ -69,4 +81,25 @@ footer #social ul li a {
 
     border-radius: 40px;
 
+    transition:all 0.5s;
+
+}
+footer ul li a:hover{
+    background-color: lightgreen;
+}
+#social ul li a:hover{
+    background-color: lightgreen;
+}
+#bottom-nav a{
+    display:block;
+    color:black;
+    padding:1em;
+    transition:all 0.5s;
+}
+#bottom-nav ul{
+    display:flex;
+    justify-content: space-evenly;
+}
+#bottom-nav ul li{
+    list-style:none;
 }
