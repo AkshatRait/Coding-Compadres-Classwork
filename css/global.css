@@ -6,18 +6,23 @@ style>
     padding: 0;
 }
 img{
-   object-fit: cover;
+   width: 100%;
 } 
+html,body{
+    height: 100%;
+    width: 100%;
+  
+}
    /* NAV BAR */
 #top-nav{
-    margin:0; 
+    margin: 0;
     padding:0;
     background-color: gray;
     
 }
 #top-nav ul{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: right;
 }
 #top-nav li{
     list-style:none;
@@ -39,8 +44,11 @@ main{
     width:100%;
     max-width: 900px;
     margin:0 auto;
+    
 } 
-
+#hero{
+    
+}
 /*body*/
 body{
     font-size: 16px;

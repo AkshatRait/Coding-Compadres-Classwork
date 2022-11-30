@@ -1,13 +1,4 @@
 
-
-html,body{
-    width:100%;
-    Height:100%;
-}
-
-
-
-
 #hero{
     text-align: center;
     list-style-position: inside;
@@ -15,7 +6,7 @@ html,body{
 }
 div#hero{
     background-color:aliceblue;
-    border: 5px solid rgb(10, 10, 14)}
+}
 #button-container{
     display:ruby;
     background-color:rgb(57 57, 134);
@@ -26,25 +17,21 @@ div#hero{
     background: linear-gradient(to right, red 0%, purple 100%);
     -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
-    text-align: center;
-    font-size:500%;
+    text-align: left;
+    font-size:100%;
     padding-top: 1%; 
     font-family:  'Patrick Hand', cursive;
 }
 
 Div#lists{
     color:blue;
-    background-color:rgb(111, 206, 185);
-    border: 5px solid rgb(10, 10, 14)}
+    background-color:rgb(111, 206, 185);}
+    
 
 
 #sub{
     color:rgb(56, 38, 33);
     text-align: center;
     font-size:300%;
-}
-img{
-    filter: drop-shadow(30px 10px 4px #000000)
-    
 }
 
