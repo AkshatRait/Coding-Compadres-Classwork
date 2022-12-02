@@ -1,23 +1,35 @@
 /* NAV BAR */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Patrick+Hand&display=swap');
 style>
-*{          
+ *{  
     margin: 0;
     padding: 0;
 }
+div *{
+   
+}
 img{
-   object-fit: cover;
+    max-height: 1000px;
+    height:50%;
+    width: 100%;
 } 
+html,body{
+    height: 100%;
+    width: 100%;
+  
+}
    /* NAV BAR */
 #top-nav{
-    margin:0; 
+    font-size: 20px;
+    height: 200px;
+    margin: 0;
     padding:0;
     background-color: gray;
     
 }
 #top-nav ul{
-    display:flex;
-    justify-content: space-evenly;
+    display:grid;
+    justify-content: right;
 }
 #top-nav li{
     list-style:none;
@@ -37,9 +49,13 @@ img{
 /*main*/
 main{
     width:100%;
-    max-width: 900px;
-    margin:0 auto;
+    max-width: 75%;
+    margin: auto;
+
 } 
+#hero{
+    
+}
 
 /*body*/
 body{
