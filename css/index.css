@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Patrick+Hand&display=swap');
+style>
+
+#hero{
+    text-align: center;
+    list-style-position: inside;
+    color:chocolate;
+}
+img{
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+#main-section{
+
+}
+#main-section img{
+    margin-left:25%;
+    padding: 0;
+    width: 50%;
+    height: 50%;
+}
+
+#button-container{
+    display:ruby;
+    background-color:rgb(57 57, 134);
+    color:rgb(255, 255, 255);
+    padding:2.5px;
+} 
+
+
+#head{
+    background-color: rgb(19, 14, 14);
+    min-height: 100vh;
+    width: 100%;
+    
+}
+
+#head img {
+    opacity: 0.7;
+}
