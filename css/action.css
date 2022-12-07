@@ -1,0 +1,12 @@
+
+#main-section{
+    font-size: x-large;
+    color:white;
+}
+
+#carbon-footprint img{
+    margin-left:25%;
+    padding: 0;
+    width: 50%;
+    object-fit: cover;
+}
