@@ -1,10 +1,15 @@
 /* NAV BAR */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Patrick+Hand&display=swap');
-style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Patrick+Hand&family=Roboto:wght@300&display=swap');;
+
  *{  
     margin: 0;
     padding: 0;
-    border-style: solid;
+}
+
+html,body{
+    margin: 0;
+    padding: 0%;
+    width: 100%;
 }
 
 a:link{
@@ -15,49 +20,56 @@ img{
     max-width:100%
 } 
 
-html,body{
-    margin: 0;
-    max-width: 100%;
-}
+
 
    /* NAV BAR */
-
 #homepage{
-    font-size: x-large;
-    margin-left: auto;
     margin-right: auto;
+    padding: auto;
+}
+
+#top-nav *{
+    color: aliceblue;
 }
 
 #top-nav{
-    display: grid;
+    position: fixed;
+    top:0;
+    width: 100%;
+    box-shadow:#f5f4f3;
+    max-height: 50px;
+    display: flex;
+    justify-content: space-between;
     font-size: 20px;
-    background-color: white;
-    
+    background-color:  #070101;
+    align-items: center;
 }
 
 #top-nav ul{ 
-    border-style: solid;
     margin:0;
     padding: 0;
     display:flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    flex-direction:row;
 }
 
 #top-nav li{
+    text-align: center;
     list-style:none;
 }
 
 #top-nav ul li a{
-    display:block;
-    color:rgb(0, 0, 0);
-    padding:1em;
-    transition:all 0.5s;
+    display:white;
+    padding: 1em;
+    transition: all 0.5s;
     
 }
 
 #top-nav ul li a:hover{
-    background-color: gray;
+    padding: 6px;
+    background-color: rgb(255, 255, 255);
 }
+
 /* NAV BAR */
 
 /*main*/
@@ -71,7 +83,7 @@ main{
 /*body*/
 body{
     font-size: 16px;
-    font-family:  'Patrick Hand', cursive;
+    font-family: 'Roboto', sans-serif;
     background-color:rgb(0, 0, 0) ; 
 }
 /*body*/
@@ -97,24 +109,17 @@ footer #social ul li{
 }
 
 footer #social ul li a {
-
     display:flex;
-
     justify-content: center;
-
     align-items: center;
-
     width:50px;
-
     height:30px;
-
     border-radius: 40px;
-
     transition:all 0.5s;
-
 }
 
 footer ul li a:hover{
+    padding: 6px;
     background-color: gray;
 }
 
@@ -137,6 +142,6 @@ footer ul li a:hover{
 #resources{
         color: aliceblue;
         font-size: 20px;
-        font-family:  'Patrick Hand', cursive;
+        font-family: 'Roboto', sans-serif;
         background-color:rgb(0, 0, 0) ; 
 }

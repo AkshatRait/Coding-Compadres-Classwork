@@ -1,12 +1,128 @@
 
+
 #main-section{
+    font-family: 'Roboto', sans-serif;
     font-size: x-large;
     color:white;
+    text-align: center;
 }
 
+.content{
+    display: grid;
+    grid-template-columns: auto;
+    width: 80%;
+    margin: auto;
+
+}
+
+mark{    
+    
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+.content p{
+    font-size: 25px;
+
+
+}
+
+
+.content img{
+    width:50%;
+
+}
+
+.content div{   
+    margin:20px;
+    padding:10px;
+
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+}
+
+#carbon-footprint{
+    width: auto;    
+    text-align: center;
+    background-color: gray;
+    margin-top:50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 40px;
+    margin-bottom: 30px;
+    border-style: outset;
+    border-width: 8px;
+    border-color: rgb(230, 230, 218);
+}
+
+#carbon-footprint h1{
+
+    font-size: 90px;
+
+}
+
+
+#donation{    
+    margin-top:150px;
+
+
+}
+
+
+
+#donation h1{
+
+    padding: 40px;
+    font-size:90px;
+    background-color: white;
+    color: green;
+    border-style: outset;
+    border-width: 8px;
+    border-color: green;
+    
+}  
+    
+#donation img{
+    opacity: 0.5;
+    object-fit: cover;
+    width: 90%;
+}
+
+#donation h2{
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    font-size: 40px;
+}
+
+#donation p{
+    padding: 10px;
+    font-size: 30px;
+    text-align: left;
+}
+
+i{
+    color: green;
+}
+
+
+a{
+    color: green;
+
+}
+
+a:hover{
+    background: #534b4b;
+    color: #fff;
+    text-align: left;
+}
+
+/*  
 #carbon-footprint img{
-    margin-left:25%;
-    padding: 0;
-    width: 50%;
+    width: 20%;
     object-fit: cover;
 }
+*/

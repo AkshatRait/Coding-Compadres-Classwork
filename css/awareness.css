@@ -1,11 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Patrick+Hand&family=Roboto:wght@300&display=swap');
 
-#main-section{
+.hero{
+    background-color: antiquewhite;
+}
+#heading{ 
+    font-weight: 100;
+    margin: 0;
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-align:center;
+    font-weight: 100;
+}
+
+
+#heading1{
+    text-align: left;
+    background-color: rgb(5, 4, 4);
+    color: rgb(52, 119, 173);
+    font-size: 30px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align:center;
+    font-weight: 100;
+}
+
+.hero img{
+    border-radius: 25px;
+    border-style: solid;
+    margin-top: 70px;
+    margin-left: 30%;
+    margin-right: auto;
+    padding: 0;
+    width: 40%;
+}
+
+.main-content{
     font-size: x-large;
     color:white;
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
 }
 
-#main-section div{
-    margin:10%;
+.main-content div{
+    padding-left: 9px;
+
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+mark{
+    background-color: rgba(171, 200, 224, 0.808);
+}
+
+#main-content h6{
+    padding: 0%;
+    margin: 0;
 }
